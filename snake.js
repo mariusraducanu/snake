@@ -7,7 +7,6 @@ class tail {
 const gameBoard = document.getElementById("cnv");
 const ctx = gameBoard.getContext("2d");
 const randomColor = Math.floor(Math.random()*16777215);
-const coordinates = [];
 const gameUnit = 25;
 let level = 1;
 let gameSpeed = 300;
@@ -65,8 +64,6 @@ function drawTable() {
             ctx.fillStyle = "lime";
             ctx.fillRect(i, j, gameUnit, gameUnit);
             ctx.strokeStyle = "black";
-            const square = {x : i, y : j};
-            coordinates.push(square);
         } 
     }
     ctx.fillStyle = "green";
