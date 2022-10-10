@@ -1,0 +1,32 @@
+.title {
+    text-align: center;
+    font-style: italic;
+    color: blue;
+    font-size: 3rem ;
+}
+
+#cnv {
+  background-color: lime;
+  border: 1px solid black;
+}
+
+#scoring {
+  text-align: center;
+  color: blue;
+}
+
+#gameOver {
+  text-align: center;
+  font-size: 150px;
+  background-image: linear-gradient(to left, violet, indigo, blue, green, yellow, orange, red);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+#level {
+  font-size: 1.5rem;
+  position: absolute;
+  left: 600px;
+  top: 150px;
+  display: none;
+}
